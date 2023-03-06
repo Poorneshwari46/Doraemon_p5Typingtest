@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Test</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--navbars-->
+    <ul>
+        <li class="compname">
+            <img src="https://cdn-icons-png.flaticon.com/128/3344/3344408.png" alt="logo">p5Typing.com
+        </li>
+        <li><a href="./contact.html">Contact Us</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./index.html">Home</a></li>
+    </ul>
+    <!--navbars done-->
+    <!--mainsection start-->
+    <div class="maincontent">
+        <div class="herosection">
+            <h1 class="herotext">Welcome to p5Typing.com</h1>
+            <h4 class="herodesc">Test your typing speed and find out how fast you type, and then improve your typing speed if necessary</h4>
+    
+        </div>
+    </div>
+
+    <!--main section end-->
+    <!--footer start-->
+
+    <!--footer end-->
+    <div align="center"class="container">
+    <div class="stats">
+        <p>Time: <span id="timer">0s</span></p>
+        <p>Mistakes: <span id="mistakes">0</span></p>
+    </div>
+    <div
+        id="quote"
+        onmousedown="return false"
+        onselectstart="return false"
+    ></div>
+    <textarea
+        rows="3"
+        id="quote-input"
+        placeholder="Type here when the test starts.."
+    ></textarea>
+    <button id="start-test" onclick="startTest()">Start Test</button>
+    <button id="stop-test" onclick="displayResult()">Stop Test</button>
+    <div class="result">
+        <h3>Result</h3>
+        <div class="wrapper">
+        <p>Accuracy: <span id="accuracy"></span></p>
+        <p>Speed: <span id="wpm"></span></p>
+        </div>
+    </div>
+    </div>
+
+    <div id="footer">
+        <p>Contact:<a href="tel:08025495589">08025495589</a></p>
+        <p>Mail:<a href="p5Typing@gmail.com">p5Typing@gmail.com</a></p>
+        <p>Copyright@p5Typing</p>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
