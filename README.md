@@ -1,1 +1,1 @@
-# Doraemon_p5Typingtest
+# Doraemon_p5Typingtest project
